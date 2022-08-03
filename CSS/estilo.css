@@ -24,10 +24,10 @@ header {
 }
 
 input {
-    height: 120px;
+    height: 80px;
     font-size: 2rem;
     width: 80%;
-    padding-left: 10%;
+    padding-left: 3%;
 }
 
 button.add {
@@ -37,7 +37,7 @@ button.add {
     color: white;
     font-weight: bold;
     border: none;
-    height: 120px;
+    height: 80px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -74,21 +74,21 @@ main {
   }
 
 .item-icone {
-    flex: 20%;
+    flex: 15%;
     /* border:1px solid orangered;  */
     text-align: center;
     font-size: 2rem;
 }
 
 .item-nome {
-    flex: 55%;
+    flex: 65%;
     /* border:1px solid deeppink;  */
     font-size: 20px;
     font-weight: bold;
 }
 
 .item-botao {
-    flex: 25%;
+    flex: 20%;
     /* border:1px solid green;    */
 }
 
@@ -104,4 +104,25 @@ main {
 
   .mdi-check-circle{
     color: green;
+  }
+
+  footer {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background: black;
+    height: 40px;
+    width: 100%;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer i {
+    color: red;
+    font-size: 22px;
   }
